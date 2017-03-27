@@ -15,6 +15,10 @@
 		A3981CE11E4C6C6700C718B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3981CDF1E4C6C6700C718B7 /* LaunchScreen.storyboard */; };
 		A3981CEC1E4C6C6700C718B7 /* NPKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3981CEB1E4C6C6700C718B7 /* NPKTests.m */; };
 		A3981CF71E4C6C6700C718B7 /* NPKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3981CF61E4C6C6700C718B7 /* NPKUITests.m */; };
+		A3981D061E4C6CBD00C718B7 /* NPKScopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3981D051E4C6CBD00C718B7 /* NPKScopeView.m */; };
+		F3AE53271E4CAFA000E7BD98 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AE53261E4CAFA000E7BD98 /* UIButton+Additions.m */; };
+		F3AE532A1E4CB08100E7BD98 /* shuzhi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3AE53281E4CB08100E7BD98 /* shuzhi@2x.png */; };
+		F3AE532B1E4CB08100E7BD98 /* shuzhi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3AE53291E4CB08100E7BD98 /* shuzhi@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		A3981CF21E4C6C6700C718B7 /* NPKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3981CF61E4C6C6700C718B7 /* NPKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPKUITests.m; sourceTree = "<group>"; };
 		A3981CF81E4C6C6700C718B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3981D041E4C6CBD00C718B7 /* NPKScopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPKScopeView.h; sourceTree = "<group>"; };
+		A3981D051E4C6CBD00C718B7 /* NPKScopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPKScopeView.m; sourceTree = "<group>"; };
+		F3AE53251E4CAFA000E7BD98 /* UIButton+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		F3AE53261E4CAFA000E7BD98 /* UIButton+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
+		F3AE53281E4CB08100E7BD98 /* shuzhi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuzhi@2x.png"; sourceTree = "<group>"; };
+		F3AE53291E4CB08100E7BD98 /* shuzhi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuzhi@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,16 @@
 		A3981CD01E4C6C6700C718B7 /* NPK */ = {
 			isa = PBXGroup;
 			children = (
+				F3AE53281E4CB08100E7BD98 /* shuzhi@2x.png */,
+				F3AE53291E4CB08100E7BD98 /* shuzhi@3x.png */,
+				A3981D041E4C6CBD00C718B7 /* NPKScopeView.h */,
+				A3981D051E4C6CBD00C718B7 /* NPKScopeView.m */,
 				A3981CD41E4C6C6700C718B7 /* AppDelegate.h */,
 				A3981CD51E4C6C6700C718B7 /* AppDelegate.m */,
 				A3981CD71E4C6C6700C718B7 /* ViewController.h */,
 				A3981CD81E4C6C6700C718B7 /* ViewController.m */,
+				F3AE53251E4CAFA000E7BD98 /* UIButton+Additions.h */,
+				F3AE53261E4CAFA000E7BD98 /* UIButton+Additions.m */,
 				A3981CDA1E4C6C6700C718B7 /* Main.storyboard */,
 				A3981CDD1E4C6C6700C718B7 /* Assets.xcassets */,
 				A3981CDF1E4C6C6700C718B7 /* LaunchScreen.storyboard */,
@@ -246,7 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AE532B1E4CB08100E7BD98 /* shuzhi@3x.png in Resources */,
 				A3981CE11E4C6C6700C718B7 /* LaunchScreen.storyboard in Resources */,
+				F3AE532A1E4CB08100E7BD98 /* shuzhi@2x.png in Resources */,
 				A3981CDE1E4C6C6700C718B7 /* Assets.xcassets in Resources */,
 				A3981CDC1E4C6C6700C718B7 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +293,8 @@
 			files = (
 				A3981CD91E4C6C6700C718B7 /* ViewController.m in Sources */,
 				A3981CD61E4C6C6700C718B7 /* AppDelegate.m in Sources */,
+				F3AE53271E4CAFA000E7BD98 /* UIButton+Additions.m in Sources */,
+				A3981D061E4C6CBD00C718B7 /* NPKScopeView.m in Sources */,
 				A3981CD31E4C6C6700C718B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +525,7 @@
 				A3981CFD1E4C6C6700C718B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3981CFE1E4C6C6700C718B7 /* Build configuration list for PBXNativeTarget "NPKTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				A3981D001E4C6C6700C718B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3981D011E4C6C6700C718B7 /* Build configuration list for PBXNativeTarget "NPKUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				A3981D031E4C6C6700C718B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

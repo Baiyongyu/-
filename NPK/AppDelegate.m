@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  NPK
 //
-//  Created by Eleven on 17/2/9.
-//  Copyright © 2017年 Eleven. All rights reserved.
+//  Created by 宇玄丶 on 2017/3/27.
+//  Copyright © 2017年 北京116工作室. All rights reserved.
 //
 
 #import "AppDelegate.h"
